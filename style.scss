@@ -620,7 +620,7 @@ img {
 
 //START-VIEW
 
-// priduct
+// product
 .service-list-view {
   background: #faf3ea;
   display: flex;
@@ -642,14 +642,18 @@ img {
 
 .product-list-view {
   margin-left: 150px;
-}
-
-.view_img {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 60px;
 }
 
+// .view_img {
+//   display: flex;
+//   gap: 60px;
+// }
+
 .item-img img {
+  display: block;
   width: 76px;
   height: 80px;
   background-color: #faf3ea;
